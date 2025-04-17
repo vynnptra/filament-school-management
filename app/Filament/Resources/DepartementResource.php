@@ -26,11 +26,11 @@ class DepartementResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('name_department')
                     ->required()
+                    ->live(true)
+                    ->afterStateUpdated(fn (Set $set, ?string $state) => $set('slug', \Illuminate\Support\Str::slug($state)))
                     ->maxLength(255),
                 Forms\Components\TextInput::make('slug')
                     ->required()
-                    ->live()
-                    ->afterStateUpdated(fn (Set $set, ?string $state) => $set('slug', \Illuminate\Support\Str::slug($state)))
                     ->maxLength(255),
                 Forms\Components\Textarea::make('description')
                     ->columnSpanFull(),

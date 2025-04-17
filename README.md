@@ -1,4 +1,4 @@
-```markdown
+
 # 🎓 Filament School Management
 
 This is a personal learning project built with **Laravel 11** and **Filament 3**, focusing on creating a **School Management System**. The project was inspired by [this tutorial on YouTube](https://youtu.be/0ptlhwpFLeo?si=IEj8wZ5iLAK5-8l3) by Irfan Maulana.
@@ -41,7 +41,6 @@ php artisan key:generate
 # Update your database credentials in .env
 php artisan migrate
 php artisan serve
-```
 
 Login with the admin user (if available) or create one manually.
 
