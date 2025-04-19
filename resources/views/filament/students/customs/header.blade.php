@@ -29,7 +29,7 @@
                 <div class="flex justify-between mt-3 items-center">
                     <button
                         type="submit"
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline"
+                        class="bg-yellow-600 hover:bg-yellow-600 text-white font-bold py-[0.70rem] px-4 rounded focus:outline-none focus:shadow-outline"
                     >
                         Unggah
                     </button>
